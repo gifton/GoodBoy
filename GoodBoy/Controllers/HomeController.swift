@@ -14,6 +14,7 @@ class HomeController : UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.view = HomeView()
+        self.title = "Home"
+        self.view = HomeView(frame: UIScreen.main.bounds)
     }
 }

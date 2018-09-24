@@ -317,6 +317,10 @@ public extension UIColor {
     static var randomRed = UIColor(red:0.60, green:0.00, blue:0.20, alpha:1.0)
     static var darkGray = UIColor(red:0.29, green:0.29, blue:0.29, alpha:1.0)
     
+    static var gbPurple = UIColor(red:0.38, green:0.40, blue:0.54, alpha:1.0)
+    static var gbGrey = UIColor(red:0.88, green:0.88, blue:0.91, alpha:1.0)
+    static var gbWhite = UIColor(red:0.94, green:0.94, blue:0.94, alpha:1.0)
+    
     
     //layering
     static var darkOverlay = UIColor(red:0.24, green:0.24, blue:0.24, alpha:0.7)

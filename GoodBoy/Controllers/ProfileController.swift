@@ -14,7 +14,8 @@ class ProfileController : UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.view = ProfileView()
+        self.title = "Profile"
+        self.view = ProfileView(frame: UIScreen.main.bounds)
     }
 }
 

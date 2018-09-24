@@ -11,9 +11,14 @@ import UIKit
 
 
 class ProfileView : UIView {
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        backgroundColor = UIColor(red:0.10, green:0.49, blue:0.33, alpha:1.0)
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        
+        backgroundColor = UIColor(red:0.92, green:0.92, blue:0.92, alpha:1.0)
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }
 }
 

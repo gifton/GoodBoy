@@ -12,7 +12,7 @@ class TabController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .blue
+        view.backgroundColor = .mainBlue
         let homeController = HomeController()
         homeController.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 0)
         
@@ -21,10 +21,11 @@ class TabController: UITabBarController {
         
         
         let tabBarList = [homeController, profileController]
-        viewControllers = tabBarListt.map { UINavigationController(rootViewController: $0) }
+        viewControllers = tabBarList
         
-        self.tabBar.layer.opacity = 0.7
-        self.tabBar.barStyle = UIBarStyle.default
+        self.tabBar.layer.opacity = 1.0
+        self.tabBar.backgroundColor = UIColor(red:0.88, green:0.88, blue:0.91, alpha:1.0)
+//        self.tabBar.barStyle = UIBarStyle.default
     }
 }
 
