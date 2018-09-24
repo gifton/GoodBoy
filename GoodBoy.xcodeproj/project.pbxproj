@@ -15,6 +15,10 @@
 		D7151F7B2158B65500E04502 /* GoodBoyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7151F7A2158B65500E04502 /* GoodBoyTests.swift */; };
 		D7151F862158B65500E04502 /* GoodBoyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7151F852158B65500E04502 /* GoodBoyUITests.swift */; };
 		D7151F9421594BA700E04502 /* Helpers in Resources */ = {isa = PBXBuildFile; fileRef = D7151F9321594BA700E04502 /* Helpers */; };
+		D7151F9721594EA700E04502 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7151F9621594EA700E04502 /* Profile.swift */; };
+		D7151F9921594EB700E04502 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7151F9821594EB700E04502 /* Home.swift */; };
+		D7151F9C21594F2500E04502 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7151F9B21594F2500E04502 /* ProfileController.swift */; };
+		D7151F9E21594F3000E04502 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7151F9D21594F3000E04502 /* HomeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		D7151F852158B65500E04502 /* GoodBoyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodBoyUITests.swift; sourceTree = "<group>"; };
 		D7151F872158B65500E04502 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7151F9321594BA700E04502 /* Helpers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Helpers; sourceTree = "<group>"; };
+		D7151F9621594EA700E04502 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		D7151F9821594EB700E04502 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		D7151F9B21594F2500E04502 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		D7151F9D21594F3000E04502 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,8 @@
 		D7151F612158B65200E04502 /* GoodBoy */ = {
 			isa = PBXGroup;
 			children = (
+				D7151F9A21594F0F00E04502 /* Controllers */,
+				D7151F9521594E8D00E04502 /* Views */,
 				D7151F9321594BA700E04502 /* Helpers */,
 				D7151F622158B65200E04502 /* AppDelegate.swift */,
 				D7151F642158B65300E04502 /* TabController.swift */,
@@ -126,6 +136,24 @@
 				D7151F872158B65500E04502 /* Info.plist */,
 			);
 			path = GoodBoyUITests;
+			sourceTree = "<group>";
+		};
+		D7151F9521594E8D00E04502 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D7151F9621594EA700E04502 /* Profile.swift */,
+				D7151F9821594EB700E04502 /* Home.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D7151F9A21594F0F00E04502 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D7151F9B21594F2500E04502 /* ProfileController.swift */,
+				D7151F9D21594F3000E04502 /* HomeController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,8 +288,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7151F652158B65300E04502 /* TabController.swift in Sources */,
+				D7151F9721594EA700E04502 /* Profile.swift in Sources */,
+				D7151F9E21594F3000E04502 /* HomeController.swift in Sources */,
 				D7151F6B2158B65300E04502 /* GoodBoy.xcdatamodeld in Sources */,
 				D7151F632158B65200E04502 /* AppDelegate.swift in Sources */,
+				D7151F9921594EB700E04502 /* Home.swift in Sources */,
+				D7151F9C21594F2500E04502 /* ProfileController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

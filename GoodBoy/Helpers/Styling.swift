@@ -60,14 +60,6 @@ extension UIView {
         blurEffectView.layer.masksToBounds = true
         self.insertSubview(blurEffectView, at: 0)
     }
-    //duh
-    func setGradient(_ view : UIView) {
-        let layer = CAGradientLayer()
-        layer.frame = .zero
-        layer.colors = [UIColor.offWhite.cgColor, UIColor.lightGray.cgColor]
-        layer.cornerRadius = 20
-        view.layer.insertSublayer(layer, at: 0)
-    }
     
     func removeShadow() {
         self.layer.masksToBounds = false
@@ -81,6 +73,7 @@ extension UIView {
         self.layer.cornerRadius = size / 2
         self.clipsToBounds = true
     }
+    
     //standard gradient and return a
     func createGradient(view: UIView) -> UIView{
         var gradient : CAGradientLayer!
@@ -244,24 +237,6 @@ extension UIView {
         self.layer.mask = mask
     }
     
-    func randomView(translate : Bool, color : UIColor, border : Bool) -> UIView{
-        let testView : UIView = {
-            let view = UIView()
-            view.backgroundColor = color
-            if translate == false {
-                view.translatesAutoresizingMaskIntoConstraints = false
-                print ("its off now")
-            }
-            if border == true {
-                view.addBorders(edges: [.all])
-            }
-            
-            return view
-        }()
-        
-        return testView
-    }
-    
     static var username : String = ""
     
     func addContent(_ label : UILabel) {
@@ -309,8 +284,6 @@ extension UIView {
             output += " \(day)th, \(year)"
         }
         
-        
-        
         return output
     }
     
@@ -344,16 +317,6 @@ public extension UIColor {
     static var randomRed = UIColor(red:0.60, green:0.00, blue:0.20, alpha:1.0)
     static var darkGray = UIColor(red:0.29, green:0.29, blue:0.29, alpha:1.0)
     
-    //opacity 50%
-    static var mainBlueHalf = UIColor(red:0.38, green:0.44, blue:0.99, alpha:0.5)
-    static var mainGrayHalf = UIColor(red:0.96, green:0.96, blue:0.97, alpha:1.0)
-    static var mainGreenHalf = UIColor(red:0.31, green:0.89, blue:0.76 , alpha:0.5)
-    static var mainOrangeHalf = UIColor(red:0.99, green:0.63, blue:0.48, alpha:0.5)
-    static var mainYellowHalf = UIColor(red:0.99, green:0.85, blue:0.38, alpha:0.5)
-    static var mainPurpleHalf = UIColor(red:0.48, green:0.23, blue:0.79, alpha:0.5)
-    static var gradientOrangeLight = UIColor(red:1.00, green:0.89, blue:0.49, alpha:1.0)
-    static var gradientOrangeDark = UIColor(red:0.97, green:0.42, blue:0.11, alpha:1.0)
-    
     
     //layering
     static var darkOverlay = UIColor(red:0.24, green:0.24, blue:0.24, alpha:0.7)
@@ -363,7 +326,7 @@ public extension UIColor {
 }
 
 //font size
-enum fontSize : CGFloat {
+enum FontSize : CGFloat {
     case small = 12.0
     case medium = 14.0
     case large = 16.0
