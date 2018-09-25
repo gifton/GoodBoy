@@ -17,7 +17,7 @@ class TabController: UITabBarController {
         homeController.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 0)
         
         let profileController = ProfileController()
-        profileController.tabBarItem = UITabBarItem(tabBarSystemItem: UITabBarSystemItem.mostViewed, tag: 1)
+        profileController.tabBarItem = UITabBarItem(tabBarSystemItem: UITabBarItem.SystemItem.mostViewed, tag: 1)
         
         
         let tabBarList = [homeController, profileController]

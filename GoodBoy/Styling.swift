@@ -46,7 +46,7 @@ extension UIView {
         self.layer.insertSublayer(gradient, at: 0)
     }
     
-    func blurBackground(type : UIBlurEffectStyle, cornerRadius : CGFloat = 20) {
+    func blurBackground(type : UIBlurEffect.Style, cornerRadius : CGFloat = 20) {
         let blurEffect = UIBlurEffect(style: type)
         let blurEffectView = UIVisualEffectView(effect: blurEffect)
         blurEffectView.frame = self.bounds
@@ -390,17 +390,17 @@ class EdgeInsetLabel: UILabel {
     }
     
     override func textRect(forBounds bounds: CGRect, limitedToNumberOfLines numberOfLines: Int) -> CGRect {
-        let insetRect = UIEdgeInsetsInsetRect(bounds, textInsets)
+        let insetRect = bounds.inset(by: textInsets)
         let textRect = super.textRect(forBounds: insetRect, limitedToNumberOfLines: numberOfLines)
         let invertedInsets = UIEdgeInsets(top: -textInsets.top,
                                           left: -textInsets.left,
                                           bottom: -textInsets.bottom,
                                           right: -textInsets.right)
-        return UIEdgeInsetsInsetRect(textRect, invertedInsets)
+        return textRect.inset(by: invertedInsets)
     }
     
     override func drawText(in rect: CGRect) {
-        super.drawText(in: UIEdgeInsetsInsetRect(rect, textInsets))
+        super.drawText(in: rect.inset(by: textInsets))
     }
 }
 

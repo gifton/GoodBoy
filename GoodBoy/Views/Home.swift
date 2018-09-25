@@ -38,7 +38,6 @@ class HomeView : UIView {
         tb.translatesAutoresizingMaskIntoConstraints = false
         tb.separatorStyle = .none
         tb.showsVerticalScrollIndicator = true
-        
         tb.allowsSelection = false
         tb.backgroundColor = .white
         
@@ -60,7 +59,7 @@ class HomeView : UIView {
         shuffleButton.trailingAnchor.constraint(equalTo: upper.trailingAnchor, constant: -10).isActive = true
         shuffleButton.bottomAnchor.constraint(equalTo: upper.bottomAnchor, constant: -10).isActive = true
         searchBar.frame = CGRect(x: 5, y: 62.5, width: ScreenSize.SCREEN_WIDTH - 55, height: 30)
-        searchBar.searchBarStyle = UISearchBarStyle.minimal
+        searchBar.searchBarStyle = UISearchBar.Style.minimal
         
         addSubview(favoritesView)
         favoritesView.frame = CGRect(x: 0, y: 110, width: ScreenSize.SCREEN_WIDTH, height: 40)

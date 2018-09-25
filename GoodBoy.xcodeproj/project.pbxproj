@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		417A4567301705A1459DF6ED /* Pods_GoodBoyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB37C101C727AB04F0D68A25 /* Pods_GoodBoyUITests.framework */; };
+		B460AF71B9A75247713A0632 /* Pods_GoodBoy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DB8860411AA3AE74E8752E7 /* Pods_GoodBoy.framework */; };
 		D7151F632158B65200E04502 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7151F622158B65200E04502 /* AppDelegate.swift */; };
 		D7151F652158B65300E04502 /* TabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7151F642158B65300E04502 /* TabController.swift */; };
 		D7151F6B2158B65300E04502 /* GoodBoy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7151F692158B65300E04502 /* GoodBoy.xcdatamodeld */; };
@@ -21,6 +23,10 @@
 		D7151FA1215954F300E04502 /* conveniance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7151F9F215954F300E04502 /* conveniance.swift */; };
 		D7151FA2215954F300E04502 /* Styling.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7151FA0215954F300E04502 /* Styling.swift */; };
 		D7151FA421595BBD00E04502 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7151FA321595BBD00E04502 /* HomeTableViewController.swift */; };
+		D77B395D2159B56000270436 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D77B395C2159B56000270436 /* GoogleService-Info.plist */; };
+		D77B395E2159B56000270436 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D77B395C2159B56000270436 /* GoogleService-Info.plist */; };
+		D77B395F2159B56000270436 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D77B395C2159B56000270436 /* GoogleService-Info.plist */; };
+		E317969443A46100340B7F3F /* Pods_GoodBoyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25173898DBB6BDAC83D2C731 /* Pods_GoodBoyTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +47,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0CF16F763A6986C7D162477B /* Pods-GoodBoyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodBoyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoodBoyUITests/Pods-GoodBoyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		187261D5E4418852B2C68592 /* Pods-GoodBoyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodBoyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoodBoyTests/Pods-GoodBoyTests.release.xcconfig"; sourceTree = "<group>"; };
+		25173898DBB6BDAC83D2C731 /* Pods_GoodBoyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoodBoyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26F43F43F46D826560C1F758 /* Pods-GoodBoyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodBoyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoodBoyUITests/Pods-GoodBoyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		427124377F6A49EED5027C2B /* Pods-GoodBoy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodBoy.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoodBoy/Pods-GoodBoy.release.xcconfig"; sourceTree = "<group>"; };
+		618C8A0906846EB4E54BCD92 /* Pods-GoodBoyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodBoyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoodBoyTests/Pods-GoodBoyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		65D10F93D9F7F408373BCFDF /* Pods-GoodBoy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoodBoy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoodBoy/Pods-GoodBoy.debug.xcconfig"; sourceTree = "<group>"; };
+		8DB8860411AA3AE74E8752E7 /* Pods_GoodBoy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoodBoy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB37C101C727AB04F0D68A25 /* Pods_GoodBoyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoodBoyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7151F5F2158B65200E04502 /* GoodBoy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodBoy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7151F622158B65200E04502 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7151F642158B65300E04502 /* TabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabController.swift; sourceTree = "<group>"; };
@@ -61,6 +76,7 @@
 		D7151F9F215954F300E04502 /* conveniance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = conveniance.swift; sourceTree = "<group>"; };
 		D7151FA0215954F300E04502 /* Styling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styling.swift; sourceTree = "<group>"; };
 		D7151FA321595BBD00E04502 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		D77B395C2159B56000270436 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B460AF71B9A75247713A0632 /* Pods_GoodBoy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E317969443A46100340B7F3F /* Pods_GoodBoyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,12 +100,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				417A4567301705A1459DF6ED /* Pods_GoodBoyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C21E98532675CA8DBF69A2E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65D10F93D9F7F408373BCFDF /* Pods-GoodBoy.debug.xcconfig */,
+				427124377F6A49EED5027C2B /* Pods-GoodBoy.release.xcconfig */,
+				618C8A0906846EB4E54BCD92 /* Pods-GoodBoyTests.debug.xcconfig */,
+				187261D5E4418852B2C68592 /* Pods-GoodBoyTests.release.xcconfig */,
+				26F43F43F46D826560C1F758 /* Pods-GoodBoyUITests.debug.xcconfig */,
+				0CF16F763A6986C7D162477B /* Pods-GoodBoyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C4D65BC80FA259B7538C0375 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DB8860411AA3AE74E8752E7 /* Pods_GoodBoy.framework */,
+				25173898DBB6BDAC83D2C731 /* Pods_GoodBoyTests.framework */,
+				CB37C101C727AB04F0D68A25 /* Pods_GoodBoyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D7151F562158B65200E04502 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +137,8 @@
 				D7151F792158B65500E04502 /* GoodBoyTests */,
 				D7151F842158B65500E04502 /* GoodBoyUITests */,
 				D7151F602158B65200E04502 /* Products */,
+				C21E98532675CA8DBF69A2E4 /* Pods */,
+				C4D65BC80FA259B7538C0375 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,6 +158,7 @@
 				D7151F9F215954F300E04502 /* conveniance.swift */,
 				D7151F622158B65200E04502 /* AppDelegate.swift */,
 				D7151FA0215954F300E04502 /* Styling.swift */,
+				D77B395C2159B56000270436 /* GoogleService-Info.plist */,
 				D7151F9A21594F0F00E04502 /* Controllers */,
 				D7151F9521594E8D00E04502 /* Views */,
 				D7151F6C2158B65500E04502 /* Assets.xcassets */,
@@ -169,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7151F8A2158B65500E04502 /* Build configuration list for PBXNativeTarget "GoodBoy" */;
 			buildPhases = (
+				C8DE6F701464DE3AB66959A4 /* [CP] Check Pods Manifest.lock */,
 				D7151F5B2158B65200E04502 /* Sources */,
 				D7151F5C2158B65200E04502 /* Frameworks */,
 				D7151F5D2158B65200E04502 /* Resources */,
+				18DDCB385D391F53E4A4E296 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -186,6 +233,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7151F8D2158B65500E04502 /* Build configuration list for PBXNativeTarget "GoodBoyTests" */;
 			buildPhases = (
+				CF30AEA2002F4A5B484E4938 /* [CP] Check Pods Manifest.lock */,
 				D7151F722158B65500E04502 /* Sources */,
 				D7151F732158B65500E04502 /* Frameworks */,
 				D7151F742158B65500E04502 /* Resources */,
@@ -204,6 +252,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7151F902158B65500E04502 /* Build configuration list for PBXNativeTarget "GoodBoyUITests" */;
 			buildPhases = (
+				38D1BE3291F97DA334BFC31C /* [CP] Check Pods Manifest.lock */,
 				D7151F7D2158B65500E04502 /* Sources */,
 				D7151F7E2158B65500E04502 /* Frameworks */,
 				D7151F7F2158B65500E04502 /* Resources */,
@@ -230,13 +279,16 @@
 				TargetAttributes = {
 					D7151F5E2158B65200E04502 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 					D7151F752158B65500E04502 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 						TestTargetID = D7151F5E2158B65200E04502;
 					};
 					D7151F802158B65500E04502 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 						TestTargetID = D7151F5E2158B65200E04502;
 					};
 				};
@@ -268,6 +320,7 @@
 			files = (
 				D7151F702158B65500E04502 /* LaunchScreen.storyboard in Resources */,
 				D7151F6D2158B65500E04502 /* Assets.xcassets in Resources */,
+				D77B395D2159B56000270436 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +328,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D77B395E2159B56000270436 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,10 +336,104 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D77B395F2159B56000270436 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18DDCB385D391F53E4A4E296 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GoodBoy/Pods-GoodBoy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoodBoy/Pods-GoodBoy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38D1BE3291F97DA334BFC31C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoodBoyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8DE6F701464DE3AB66959A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoodBoy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF30AEA2002F4A5B484E4938 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoodBoyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D7151F5B2158B65200E04502 /* Sources */ = {
@@ -464,6 +612,7 @@
 		};
 		D7151F8B2158B65500E04502 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65D10F93D9F7F408373BCFDF /* Pods-GoodBoy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -475,13 +624,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.gifton.GoodBoy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		D7151F8C2158B65500E04502 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 427124377F6A49EED5027C2B /* Pods-GoodBoy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -493,13 +643,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.gifton.GoodBoy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		D7151F8E2158B65500E04502 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 618C8A0906846EB4E54BCD92 /* Pods-GoodBoyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,7 +664,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.gifton.GoodBoyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoodBoy.app/GoodBoy";
 			};
@@ -521,6 +672,7 @@
 		};
 		D7151F8F2158B65500E04502 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 187261D5E4418852B2C68592 /* Pods-GoodBoyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -534,7 +686,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.gifton.GoodBoyTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoodBoy.app/GoodBoy";
 			};
@@ -542,6 +694,7 @@
 		};
 		D7151F912158B65500E04502 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26F43F43F46D826560C1F758 /* Pods-GoodBoyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -554,7 +707,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.gifton.GoodBoyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = GoodBoy;
 			};
@@ -562,6 +715,7 @@
 		};
 		D7151F922158B65500E04502 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CF16F763A6986C7D162477B /* Pods-GoodBoyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -574,7 +728,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = io.gifton.GoodBoyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = GoodBoy;
 			};
