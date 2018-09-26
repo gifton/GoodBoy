@@ -300,8 +300,31 @@ extension UITabBarController {
         return navController
     }
 }
-
-
+//resize images
+extension UIView {
+    func resizeImage(image: UIImage, newWidth: CGFloat) -> UIImage {
+        
+        let scale = newWidth / image.size.width
+        let newHeight = image.size.height * scale
+        
+        UIGraphicsBeginImageContext(CGSize(width: newWidth, height: newHeight))
+        
+        
+        image.draw(in: CGRect(x: 0, y: 0,width: newWidth, height: newHeight))
+        let newImage = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        
+        return newImage!
+    }
+}
+extension UIView {
+    func getNewImageHeight(imageSize: CGSize, newWidth: CGFloat) -> CGFloat {
+        let scale = newWidth / imageSize.width
+        let newHeight = imageSize.height * scale
+        
+        return newHeight
+    }
+}
 //pairso colorways
 public extension UIColor {
     static var mainGray = UIColor(red:0.96, green:0.96, blue:0.97, alpha:1.0)
@@ -317,9 +340,17 @@ public extension UIColor {
     static var randomRed = UIColor(red:0.60, green:0.00, blue:0.20, alpha:1.0)
     static var darkGray = UIColor(red:0.29, green:0.29, blue:0.29, alpha:1.0)
     
+    //lightMode
+    static var gbWhite = UIColor(red:0.94, green:0.94, blue:0.94, alpha:1.0)
+    //Dark mode
+    static var gbDarkPurple = UIColor(red:0.16, green:0.17, blue:0.20, alpha:1.0)
+    //global
     static var gbPurple = UIColor(red:0.38, green:0.40, blue:0.54, alpha:1.0)
     static var gbGrey = UIColor(red:0.88, green:0.88, blue:0.91, alpha:1.0)
-    static var gbWhite = UIColor(red:0.94, green:0.94, blue:0.94, alpha:1.0)
+    static var gbBlue = UIColor(red:0.58, green:0.62, blue:0.94, alpha:1.0)
+    static var gbOrange = UIColor(red:1.00, green:0.84, blue:0.66, alpha:1.0)
+    static var gbRed = UIColor(red:0.94, green:0.58, blue:0.62, alpha:1.0)
+    
     
     
     //layering

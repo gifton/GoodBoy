@@ -16,8 +16,8 @@
 		D7151F702158B65500E04502 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7151F6E2158B65500E04502 /* LaunchScreen.storyboard */; };
 		D7151F7B2158B65500E04502 /* GoodBoyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7151F7A2158B65500E04502 /* GoodBoyTests.swift */; };
 		D7151F862158B65500E04502 /* GoodBoyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7151F852158B65500E04502 /* GoodBoyUITests.swift */; };
-		D7151F9721594EA700E04502 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7151F9621594EA700E04502 /* Profile.swift */; };
-		D7151F9921594EB700E04502 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7151F9821594EB700E04502 /* Home.swift */; };
+		D7151F9721594EA700E04502 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7151F9621594EA700E04502 /* ProfileView.swift */; };
+		D7151F9921594EB700E04502 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7151F9821594EB700E04502 /* HomeView.swift */; };
 		D7151F9C21594F2500E04502 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7151F9B21594F2500E04502 /* ProfileController.swift */; };
 		D7151F9E21594F3000E04502 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7151F9D21594F3000E04502 /* HomeController.swift */; };
 		D7151FA1215954F300E04502 /* conveniance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7151F9F215954F300E04502 /* conveniance.swift */; };
@@ -26,6 +26,12 @@
 		D77B395D2159B56000270436 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D77B395C2159B56000270436 /* GoogleService-Info.plist */; };
 		D77B395E2159B56000270436 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D77B395C2159B56000270436 /* GoogleService-Info.plist */; };
 		D77B395F2159B56000270436 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D77B395C2159B56000270436 /* GoogleService-Info.plist */; };
+		D7B657F5215A2E5800E5A4B2 /* GoodBoy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B657F4215A2E5800E5A4B2 /* GoodBoy.swift */; };
+		D7B657F7215A2EFC00E5A4B2 /* GoodBoyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B657F6215A2EFC00E5A4B2 /* GoodBoyCell.swift */; };
+		D7B657F9215A2F0900E5A4B2 /* FavoritesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B657F8215A2F0900E5A4B2 /* FavoritesCell.swift */; };
+		D7B657FB215A4B7100E5A4B2 /* FavoritesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B657FA215A4B7100E5A4B2 /* FavoritesCollectionViewController.swift */; };
+		D7B657FF215BF6D700E5A4B2 /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B657FE215BF6D700E5A4B2 /* Favorites.swift */; };
+		D7B65801215BF93300E5A4B2 /* DogAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B65800215BF93300E5A4B2 /* DogAPI.swift */; };
 		E317969443A46100340B7F3F /* Pods_GoodBoyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25173898DBB6BDAC83D2C731 /* Pods_GoodBoyTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -69,14 +75,20 @@
 		D7151F812158B65500E04502 /* GoodBoyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodBoyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7151F852158B65500E04502 /* GoodBoyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodBoyUITests.swift; sourceTree = "<group>"; };
 		D7151F872158B65500E04502 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D7151F9621594EA700E04502 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
-		D7151F9821594EB700E04502 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		D7151F9621594EA700E04502 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		D7151F9821594EB700E04502 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		D7151F9B21594F2500E04502 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 		D7151F9D21594F3000E04502 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		D7151F9F215954F300E04502 /* conveniance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = conveniance.swift; sourceTree = "<group>"; };
 		D7151FA0215954F300E04502 /* Styling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styling.swift; sourceTree = "<group>"; };
 		D7151FA321595BBD00E04502 /* HomeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		D77B395C2159B56000270436 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D7B657F4215A2E5800E5A4B2 /* GoodBoy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodBoy.swift; sourceTree = "<group>"; };
+		D7B657F6215A2EFC00E5A4B2 /* GoodBoyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodBoyCell.swift; sourceTree = "<group>"; };
+		D7B657F8215A2F0900E5A4B2 /* FavoritesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesCell.swift; sourceTree = "<group>"; };
+		D7B657FA215A4B7100E5A4B2 /* FavoritesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesCollectionViewController.swift; sourceTree = "<group>"; };
+		D7B657FE215BF6D700E5A4B2 /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
+		D7B65800215BF93300E5A4B2 /* DogAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +167,7 @@
 		D7151F612158B65200E04502 /* GoodBoy */ = {
 			isa = PBXGroup;
 			children = (
+				D7B657F3215A2E4200E5A4B2 /* Modal */,
 				D7151F9F215954F300E04502 /* conveniance.swift */,
 				D7151F622158B65200E04502 /* AppDelegate.swift */,
 				D7151FA0215954F300E04502 /* Styling.swift */,
@@ -190,8 +203,8 @@
 		D7151F9521594E8D00E04502 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				D7151F9621594EA700E04502 /* Profile.swift */,
-				D7151F9821594EB700E04502 /* Home.swift */,
+				D7B657FC215AF12800E5A4B2 /* Home */,
+				D7B657FD215AF12E00E5A4B2 /* Profile */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -203,8 +216,37 @@
 				D7151F9B21594F2500E04502 /* ProfileController.swift */,
 				D7151F9D21594F3000E04502 /* HomeController.swift */,
 				D7151FA321595BBD00E04502 /* HomeTableViewController.swift */,
+				D7B657FA215A4B7100E5A4B2 /* FavoritesCollectionViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D7B657F3215A2E4200E5A4B2 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				D7B657F4215A2E5800E5A4B2 /* GoodBoy.swift */,
+				D7B657FE215BF6D700E5A4B2 /* Favorites.swift */,
+				D7B65800215BF93300E5A4B2 /* DogAPI.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		D7B657FC215AF12800E5A4B2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D7151F9821594EB700E04502 /* HomeView.swift */,
+				D7B657F6215A2EFC00E5A4B2 /* GoodBoyCell.swift */,
+				D7B657F8215A2F0900E5A4B2 /* FavoritesCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D7B657FD215AF12E00E5A4B2 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				D7151F9621594EA700E04502 /* ProfileView.swift */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -440,15 +482,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7B657FB215A4B7100E5A4B2 /* FavoritesCollectionViewController.swift in Sources */,
 				D7151FA2215954F300E04502 /* Styling.swift in Sources */,
 				D7151F652158B65300E04502 /* TabController.swift in Sources */,
-				D7151F9721594EA700E04502 /* Profile.swift in Sources */,
+				D7B657FF215BF6D700E5A4B2 /* Favorites.swift in Sources */,
+				D7B657F5215A2E5800E5A4B2 /* GoodBoy.swift in Sources */,
+				D7B657F7215A2EFC00E5A4B2 /* GoodBoyCell.swift in Sources */,
+				D7151F9721594EA700E04502 /* ProfileView.swift in Sources */,
 				D7151F9E21594F3000E04502 /* HomeController.swift in Sources */,
+				D7B657F9215A2F0900E5A4B2 /* FavoritesCell.swift in Sources */,
 				D7151FA421595BBD00E04502 /* HomeTableViewController.swift in Sources */,
 				D7151F6B2158B65300E04502 /* GoodBoy.xcdatamodeld in Sources */,
+				D7B65801215BF93300E5A4B2 /* DogAPI.swift in Sources */,
 				D7151F632158B65200E04502 /* AppDelegate.swift in Sources */,
 				D7151FA1215954F300E04502 /* conveniance.swift in Sources */,
-				D7151F9921594EB700E04502 /* Home.swift in Sources */,
+				D7151F9921594EB700E04502 /* HomeView.swift in Sources */,
 				D7151F9C21594F2500E04502 /* ProfileController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
