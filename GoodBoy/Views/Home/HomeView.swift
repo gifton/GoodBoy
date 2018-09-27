@@ -17,7 +17,7 @@ class HomeView : UIView {
         //self.view.endEditing(true)
         return true
     }
-    var goodBoyData : [GoodBoy] = []
+    var goodBoyData : [SingleGoodBoy] = []
     let testData : [GoodBoy] = [GoodBoy.init(img: #imageLiteral(resourceName: "img6"), breed: "TestBreed1"),
                                 GoodBoy.init(img: #imageLiteral(resourceName: "img7"), breed: "TestBreed2"),
                                 GoodBoy.init(img: #imageLiteral(resourceName: "img4"), breed: "TestBreed3"),
@@ -27,7 +27,8 @@ class HomeView : UIView {
                                 GoodBoy.init(img: #imageLiteral(resourceName: "img4"), breed: "TestBreed7")]
     override init(frame: CGRect) {
         super.init(frame: frame)
-        buildView()
+        gatherDataTest()
+        gatherDataTest()
         self.backgroundColor = .gbDarkPurple
     }
     

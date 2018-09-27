@@ -12,19 +12,24 @@ import UIKit
 extension HomeView : UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        print(testData.count)
+        print(goodBoyData.count)
         return testData.count
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return self.getNewImageHeight(imageSize: testData[indexPath.row].img.size, newWidth: ScreenSize.SCREEN_WIDTH - 4)
+        let image = testData[indexPath.row].img
+        return self.getNewImageHeight(imageSize: image.size, newWidth: ScreenSize.SCREEN_WIDTH - 4)
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: tableViewID, for: indexPath) as! GoodBoyCell
+        
         var image = testData[indexPath.row].img
         image = resizeImage(image: image, newWidth: ScreenSize.SCREEN_WIDTH - 4)
+        
         cell.title.text = testData[indexPath.row].breed
+        cell.goodBoy.image = image
+        
         let ratio = image.size.width / image.size.height
         if cell.frame.width < image.size.width {
             let newHeight = cell.frame.width / ratio
@@ -33,9 +38,7 @@ extension HomeView : UITableViewDelegate, UITableViewDataSource {
             let newWidth = cell.frame.height * ratio
             cell.goodBoy.frame.size = CGSize(width: newWidth, height: cell.frame.height)
         }
-        cell.goodBoy.image = image
+        
         return cell
     }
-    
-    
 }
